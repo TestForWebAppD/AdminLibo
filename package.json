@@ -10,14 +10,18 @@
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "gsap": "^3.12.5",
+    "helmet": "^8.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.11",
+    "tailwindcss": "^3.4.14"
   }
 }
