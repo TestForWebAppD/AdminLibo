@@ -27,7 +27,7 @@ export const Profile: React.FC = () => {
                     return;
                 }
 
-                const response = await fetch('http://217.114.10.30:5000/auth/profile', {
+                const response = await fetch('http://217.114.8.68:5000/auth/profile', {
                     method: 'GET',
                     headers: {
                         'Authorization': `Bearer ${token}`,
