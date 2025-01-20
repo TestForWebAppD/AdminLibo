@@ -16,7 +16,7 @@ const Users = () => {
     // Функция для получения всех пользователей с сервера
     const fetchUsers = async () => {
         try {
-            const response = await fetch('http://217.114.10.30:5000/auth/admin/getAllUsers');
+            const response = await fetch('http://217.114.8.68:5000/auth/admin/getAllUsers');
             if (response.ok) {
                 const data = await response.json();
                 setUsers(data);  // Сохраняем данные о пользователях в состояние
