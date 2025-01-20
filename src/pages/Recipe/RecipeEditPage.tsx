@@ -90,7 +90,7 @@ const RecipeEditPage: React.FC = () => {
 
         try {
             for (const [fieldName, value] of Object.entries(updatedFields)) {
-                const response = await fetch("http://217.114.10.30:5000/auth/admin/recipe/update-field", {
+                const response = await fetch("http://217.114.8.68:5000/auth/admin/recipe/update-field", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
