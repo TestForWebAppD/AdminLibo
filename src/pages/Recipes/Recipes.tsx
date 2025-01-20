@@ -34,7 +34,7 @@ export const Recipes = () => {
         const fetchAllRecipes = async () => {
             setLoading(true);
             try {
-                const response = await fetch('http://217.114.10.30:5000/recipes/allRecipes', {
+                const response = await fetch('http://217.114.8.68:5000/recipes/allRecipes', {
                     method: 'GET',
                 });
 
