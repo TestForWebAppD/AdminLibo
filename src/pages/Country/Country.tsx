@@ -15,7 +15,7 @@ export const Country = () => {
             setError(null);
 
             try {
-                const response = await fetch('http://217.114.10.30:5000/recipes/allRecipesByCountry', {
+                const response = await fetch('http://217.114.8.68:5000/recipes/allRecipesByCountry', {
                     method: 'POST',  // Используем POST вместо GET
                     headers: {
                         'Content-Type': 'application/json',  // Устанавливаем тип содержимого
