@@ -125,7 +125,7 @@ const RecipeEditPage: React.FC = () => {
         const token = localStorage.getItem('token');
 
         if (token) {
-            const response = await fetch("http://217.114.10.30:5000/auth/admin/deleteRecipe", {
+            const response = await fetch("http://217.114.8.68:5000/auth/admin/deleteRecipe", {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",
