@@ -120,7 +120,7 @@ export const AddRecipeForm: React.FC = () => {
         e.preventDefault();
         try {
             const token = localStorage.getItem('token');
-            const response = await fetch('http://217.114.10.30:5000/auth/addRecipe', {
+            const response = await fetch('http://217.114.8.68:5000/auth/addRecipe', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
