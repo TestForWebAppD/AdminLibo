@@ -14,7 +14,7 @@ export const RecipesById: React.FC<Id> = ({ id }) => {
 
     const fetchRecipes = async (recipeId: string) => {
         try {
-            const response = await fetch(`http://217.114.10.30:5000/recipes/recipesById`, {
+            const response = await fetch(`http://217.114.8.68:5000/recipes/recipesById`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`,
@@ -37,7 +37,7 @@ export const RecipesById: React.FC<Id> = ({ id }) => {
 
     const deleteRecipe = async () => {
         try {
-            const response = await fetch(`http://217.114.10.30:5000/auth/deleteRecipe`, {
+            const response = await fetch(`http://217.114.8.68:5000/auth/deleteRecipe`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`,
