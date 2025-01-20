@@ -15,7 +15,7 @@ export const Season = () => {
             setError(null);
 
             try {
-                const response = await fetch(`http://217.114.10.30:5000/recipes/allRecipesBySeason`, {
+                const response = await fetch(`http://217.114.8.68:5000/recipes/allRecipesBySeason`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
