@@ -18,7 +18,7 @@ export const Category = () => {
             setError(null);
 
             try {
-                const response = await fetch(`http://217.114.10.30:5000/recipes/allRecipesByCategories`, {
+                const response = await fetch(`http://217.114.8.68:5000/recipes/allRecipesByCategories`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
